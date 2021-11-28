@@ -31,7 +31,9 @@ the lagged search traffic and the stock price returns. This was probably my favo
 
 For this last part I finally make use of Prophet.  I begin by formatting the dataframe to be compatible with colab.
 I instantiate an instance of the Prophet model. It has begun!  I make predictions going out about 80 days by using
-make_future_dataframe.  
+make_future_dataframe.  I plot the forecast and comment about the near-term populartiy of MercadoLibre. Looks like
+MercadoLibre will be doing quite well in the next 3 or so months!  After this I plot the individual time series components and answer
+some questions. What a challenge!
 
 
 ## Story
